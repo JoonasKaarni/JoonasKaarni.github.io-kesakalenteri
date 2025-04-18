@@ -1,0 +1,25 @@
+body {
+    background-color: #31a8c0;
+    
+}
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+    width: 325px;
+    border: 1px solid #1A1818;
+    background-color: #3BC1EE;
+    opacity: 85%;
+    margin-top: 30px;
+}
+p {
+    color: whitesmoke;
+    opacity: 85%;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    width: 265px;
+    border: 1px solid #1A1818;
+    background-color: #3BC1EE;
+}
