@@ -23,3 +23,21 @@ p {
     border: 1px solid #1A1818;
     background-color: #3BC1EE;
 }
+.flex-container {
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.flex-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
