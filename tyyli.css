@@ -1,44 +1,59 @@
 body {
-    background-color: #31a8c0;
-    
+    background-color: #e1f5fe;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
 }
+
 h1 {
     color: whitesmoke;
     text-align: center;
     font-size: 50px;
     margin: auto;
-    width: 325px;
+    width: fit-content;
+    padding: 20px 40px;
     border: 1px solid #1A1818;
-    background-color: #3BC1EE;
-    opacity: 85%;
+    background-color: #4dd0e1; 
+    opacity: 0.9;
     margin-top: 30px;
+    border-radius: 35px; 
 }
+
 p {
     color: whitesmoke;
-    opacity: 85%;
+    opacity: 0.85;
     font-size: 16px;
     text-align: center;
     margin: auto;
     width: 265px;
     border: 1px solid #1A1818;
-    background-color: #3BC1EE;
+    background-color: #4dd0e1; 
+    border-radius: 25px;
+    padding: 12px;
 }
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content: space-around;
     padding: 20px;
     gap: 16px;
     margin-top: 25px;
-    
 }
+
 .luukku {
     background-color: white;
     padding: 15px;
     width: 90px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    border-radius: 12px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    color: #0288d1;
+    font-weight: bold;
 }
-#l1 {
-    background-color: red;
+
+.luukku:hover {
+    transform: scale(1.05);
+    background-color: #4dd0e1; 
+    color: white;
 }
