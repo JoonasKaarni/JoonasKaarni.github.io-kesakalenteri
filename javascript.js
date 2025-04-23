@@ -2,8 +2,7 @@ let paiva = new Date();
 
 
 function avaaLuukku (){
-    getDate()
-    if (paiva == 23/4/2025)
+    if (paiva > Date(22/4/2024))
         console.log("Luukku auki!")
 
 }
