@@ -32,13 +32,13 @@ p {
     margin-top: 25px;
     
 }
-.flex-item {
+.luukku {
     background-color: white;
     padding: 15px;
     width: 90px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
 }
-#Luukku1 {
-    
+#l1 {
+    background-color: red;
 }
