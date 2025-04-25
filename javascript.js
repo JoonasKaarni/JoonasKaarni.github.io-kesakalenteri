@@ -1,4 +1,4 @@
-let paiva = new Date();
+/*let paiva = new Date();
 
 
 function avaaLuukku (){
@@ -6,3 +6,4 @@ function avaaLuukku (){
         console.log("Luukku auki!")
 
 }
+  Sori aleksi laitoin tän jäihin siks aikaa kun kokeilen jotain */
