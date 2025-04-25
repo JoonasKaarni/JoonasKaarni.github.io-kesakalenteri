@@ -8,12 +8,12 @@ function avaaLuukku (){
 }
   Sori aleksi laitoin tän jäihin siks aikaa kun kokeilen jotain */
 
-function avaaLuukku () {
-    let Viikko = {
+function avaaLuukku1 () {
+    let viikko = {
         start: "2024-04-20", end: "2024-04-26", message: "Tähän tulee ensimmäisen viikon tapahtumat"};
     let tanaan = new Date();
-    let start = new Date(Viikko.start);
-    let end = new Date(Viikko.end);
+    let start = new Date(viikko.start);
+    let end = new Date(viikko.end);
     let teksti = "";
     if (tanaan >= start && tanaan <= end) {
         document.getElementById("l1").innerHTML = "Viikko " + 1 + " on avattu!";
@@ -21,6 +21,36 @@ function avaaLuukku () {
         document.getElementById("l1").innerHTML = "Viikko " + 1 + " on avattu!";
     } else {
         document.getElementById("l1").innerHTML = "Viikko " + 1 + " on vielä lukittu.";
+    }
+}
+function avaaLuukku2 () {
+    let viikko = {
+        start: "2024-04-20", end: "2024-04-26", message: "Tähän tulee ensimmäisen viikon tapahtumat"};
+    let tanaan = new Date();
+    let start = new Date(viikko.start);
+    let end = new Date(viikko.end);
+    let teksti = "";
+    if (tanaan >= start && tanaan <= end) {
+        document.getElementById("l2").innerHTML = "Viikko " + 2 + " on avattu!";
+    } else if (tanaan > end) {
+        document.getElementById("l2").innerHTML = "Viikko " + 2 + " on avattu!";
+    } else {
+        document.getElementById("l2").innerHTML = "Viikko " + 2 + " on vielä lukittu.";
+    }
+}
+function avaaLuukku3 () {
+    let viikko = {
+        start: "2024-04-20", end: "2024-04-26", message: "Tähän tulee ensimmäisen viikon tapahtumat"};
+    let tanaan = new Date();
+    let start = new Date(viikko.start);
+    let end = new Date(viikko.end);
+    let teksti = "";
+    if (tanaan >= start && tanaan <= end) {
+        document.getElementById("l3").innerHTML = "Viikko " + 3 + " on avattu!";
+    } else if (tanaan > end) {
+        document.getElementById("l3").innerHTML = "Viikko " + 3 + " on avattu!";
+    } else {
+        document.getElementById("l3").innerHTML = "Viikko " + 3 + " on vielä lukittu.";
     }
 }
 
