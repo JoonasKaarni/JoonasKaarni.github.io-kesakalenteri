@@ -53,6 +53,156 @@ function avaaLuukku3 () {
         document.getElementById("l3").innerHTML = "Viikko " + 3 + " on vielä lukittu.";
     }
 }
+function avaaLuukku4 () {
+    let viikko = {
+        start: "2024-04-20", end: "2024-04-26", message: "Tähän tulee ensimmäisen viikon tapahtumat"};
+    let tanaan = new Date();
+    let start = new Date(viikko.start);
+    let end = new Date(viikko.end);
+    let teksti = "";
+    if (tanaan >= start && tanaan <= end) {
+        document.getElementById("l4").innerHTML = "Viikko 4 on avattu!";
+    } else if (tanaan > end) {
+        document.getElementById("l4").innerHTML = "Viikko 4 on avattu!";
+    } else {
+        document.getElementById("l4").innerHTML = "Viikko 4 on vielä lukittu.";
+    }
+}
+function avaaLuukku5 () {
+    let viikko = {
+        start: "2024-04-20", end: "2024-04-26", message: "Tähän tulee ensimmäisen viikon tapahtumat"};
+    let tanaan = new Date();
+    let start = new Date(viikko.start);
+    let end = new Date(viikko.end);
+    let teksti = "";
+    if (tanaan >= start && tanaan <= end) {
+        document.getElementById("l5").innerHTML = "Viikko 5 on avattu!";
+    } else if (tanaan > end) {
+        document.getElementById("l5").innerHTML = "Viikko 5 on avattu!";
+    } else {
+        document.getElementById("l5").innerHTML = "Viikko 5 on vielä lukittu.";
+    }
+}
+function avaaLuukku6 () {
+    let viikko = {
+        start: "2024-04-20", end: "2024-04-26", message: "Tähän tulee ensimmäisen viikon tapahtumat"};
+    let tanaan = new Date();
+    let start = new Date(viikko.start);
+    let end = new Date(viikko.end);
+    let teksti = "";
+    if (tanaan >= start && tanaan <= end) {
+        document.getElementById("l6").innerHTML = "Viikko 6 on avattu!";
+    } else if (tanaan > end) {
+        document.getElementById("l6").innerHTML = "Viikko 6 on avattu!";
+    } else {
+        document.getElementById("l6").innerHTML = "Viikko 6 on vielä lukittu.";
+    }
+}
+function avaaLuukku7 () {
+    let viikko = {
+        start: "2024-04-20", end: "2024-04-26", message: "Tähän tulee ensimmäisen viikon tapahtumat"};
+    let tanaan = new Date();
+    let start = new Date(viikko.start);
+    let end = new Date(viikko.end);
+    let teksti = "";
+    if (tanaan >= start && tanaan <= end) {
+        document.getElementById("l7").innerHTML = "Viikko 7 on avattu!";
+    } else if (tanaan > end) {
+        document.getElementById("l7").innerHTML = "Viikko 7 on avattu!";
+    } else {
+        document.getElementById("l7").innerHTML = "Viikko 7 on vielä lukittu.";
+    }
+}
+function avaaLuukku8 () {
+    let viikko = {
+        start: "2024-04-20", end: "2024-04-26", message: "Tähän tulee ensimmäisen viikon tapahtumat"};
+    let tanaan = new Date();
+    let start = new Date(viikko.start);
+    let end = new Date(viikko.end);
+    let teksti = "";
+    if (tanaan >= start && tanaan <= end) {
+        document.getElementById("l8").innerHTML = "Viikko 8 on avattu!";
+    } else if (tanaan > end) {
+        document.getElementById("l8").innerHTML = "Viikko 8 on avattu!";
+    } else {
+        document.getElementById("l8").innerHTML = "Viikko 8 on avattu!";
+    }
+}
+function avaaLuukku9 () {
+    let viikko = {
+        start: "2024-04-20", end: "2024-04-26", message: "Tähän tulee ensimmäisen viikon tapahtumat"};
+    let tanaan = new Date();
+    let start = new Date(viikko.start);
+    let end = new Date(viikko.end);
+    let teksti = "";
+    if (tanaan >= start && tanaan <= end) {
+        document.getElementById("l9").innerHTML = "Viikko 9 on avattu!";
+    } else if (tanaan > end) {
+        document.getElementById("l9").innerHTML = "Viikko 9 on avattu!";
+    } else {
+        document.getElementById("l9").innerHTML = "Viikko 9 on vielä lukittu.";
+    }
+}
+function avaaLuukku10 () {
+    let viikko = {
+        start: "2024-04-20", end: "2024-04-26", message: "Tähän tulee ensimmäisen viikon tapahtumat"};
+    let tanaan = new Date();
+    let start = new Date(viikko.start);
+    let end = new Date(viikko.end);
+    let teksti = "";
+    if (tanaan >= start && tanaan <= end) {
+        document.getElementById("l10").innerHTML = "Viikko 10 on avattu!";
+    } else if (tanaan > end) {
+        document.getElementById("l10").innerHTML = "Viikko 10 on avattu!";
+    } else {
+        document.getElementById("l10").innerHTML = "Viikko 10 on vielä lukittu.";
+    }
+}
+function avaaLuukku11 () {
+    let viikko = {
+        start: "2024-04-20", end: "2024-04-26", message: "Tähän tulee ensimmäisen viikon tapahtumat"};
+    let tanaan = new Date();
+    let start = new Date(viikko.start);
+    let end = new Date(viikko.end);
+    let teksti = "";
+    if (tanaan >= start && tanaan <= end) {
+        document.getElementById("l11").innerHTML = "Viikko 11 on avattu!";
+    } else if (tanaan > end) {
+        document.getElementById("l11").innerHTML = "Viikko 11 on avattu!";
+    } else {
+        document.getElementById("l11").innerHTML = "Viikko 11 on vielä lukittu.";
+    }
+}
+function avaaLuukku12 () {
+    let viikko = {
+        start: "2024-04-20", end: "2024-04-26", message: "Tähän tulee ensimmäisen viikon tapahtumat"};
+    let tanaan = new Date();
+    let start = new Date(viikko.start);
+    let end = new Date(viikko.end);
+    let teksti = "";
+    if (tanaan >= start && tanaan <= end) {
+        document.getElementById("l12").innerHTML = "Viikko 12 on avattu!";
+    } else if (tanaan > end) {
+        document.getElementById("l12").innerHTML = "Viikko 12 on avattu!";
+    } else {
+        document.getElementById("l12").innerHTML = "Viikko 12 on vielä lukittu.";
+    }
+}
+function avaaLuukku13 () {
+    let viikko = {
+        start: "2024-04-20", end: "2024-04-26", message: "Tähän tulee ensimmäisen viikon tapahtumat"};
+    let tanaan = new Date();
+    let start = new Date(viikko.start);
+    let end = new Date(viikko.end);
+    let teksti = "";
+    if (tanaan >= start && tanaan <= end) {
+        document.getElementById("l13").innerHTML = "Viikko 13 on avattu!";
+    } else if (tanaan > end) {
+        document.getElementById("l13").innerHTML = "Viikko 13 on avattu!";
+    } else {
+        document.getElementById("l13").innerHTML = "Viikko 13 on vielä lukittu.";
+    }
+}
 
       /*{ start: "2024-06-08", end: "2024-06-14", message: "Tähän tulee toisen viikon tapahtumat" },
         { start: "2024-06-15", end: "2024-06-21", message: "Tähän tulee kolmannen viikon tapahtumat" },
