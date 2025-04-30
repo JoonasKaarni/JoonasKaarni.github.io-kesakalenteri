@@ -1,13 +1,3 @@
-/*let paiva = new Date();
-
-
-function avaaLuukku (){
-    if (paiva > Date(22/4/2024))
-        console.log("Luukku auki!")
-
-}
-  Sori aleksi laitoin tän jäihin siks aikaa kun kokeilen jotain */
-
 function avaaLuukku1 () {
     let viikko = {start: "2024-04-20", end: "2024-04-26",};
     let tanaan = new Date();
