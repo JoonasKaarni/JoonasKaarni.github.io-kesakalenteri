@@ -181,7 +181,8 @@ function avaaLuukku13 () {
     }
 }
 
-      /*{ start: "2024-06-08", end: "2024-06-14", message: "Tähän tulee toisen viikon tapahtumat" },
+      /* Tässä on viikot 2-13 oikeat päivämäärät. ne voi kopsaa tästä noihin sit kun niihin laittaa ne oikeat päivämäärät.
+      { start: "2024-06-08", end: "2024-06-14", message: "Tähän tulee toisen viikon tapahtumat" },
         { start: "2024-06-15", end: "2024-06-21", message: "Tähän tulee kolmannen viikon tapahtumat" },
         { start: "2024-06-22", end: "2024-06-28", message: "Tähän tulee neljännen viikon tapahtumat" },
         { start: "2024-06-29", end: "2024-07-05", message: "Tähän tulee viidennen viikon tapahtumat" },
