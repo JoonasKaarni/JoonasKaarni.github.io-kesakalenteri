@@ -1,5 +1,5 @@
 function avaaLuukku1 () {
-    let viikko = {start: "2024-04-20", end: "2024-04-26",};
+    let viikko = {start: "2025-04-20", end: "2025-04-26",};
     let tanaan = new Date();
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
@@ -13,7 +13,7 @@ function avaaLuukku1 () {
     }
 }
 function avaaLuukku2 () {
-    let viikko = {start: "2024-04-20", end: "2024-04-26",};
+    let viikko = {start: "2025-04-20", end: "2025-04-26",};
     let tanaan = new Date();
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
@@ -27,7 +27,7 @@ function avaaLuukku2 () {
     }
 }
 function avaaLuukku3 () {
-    let viikko = {start: "2024-04-20", end: "2024-04-26",};
+    let viikko = {start: "2025-04-20", end: "2025-04-26",};
     let tanaan = new Date();
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
@@ -41,7 +41,7 @@ function avaaLuukku3 () {
     }
 }
 function avaaLuukku4 () {
-    let viikko = {start: "2024-04-20", end: "2024-04-26",};
+    let viikko = {start: "2025-04-20", end: "2025-04-26",};
     let tanaan = new Date();
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
@@ -55,7 +55,7 @@ function avaaLuukku4 () {
     }
 }
 function avaaLuukku5 () {
-    let viikko = {start: "2024-04-20", end: "2024-04-26",};
+    let viikko = {start: "2025-04-20", end: "2025-04-26",};
     let tanaan = new Date();
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
@@ -69,7 +69,7 @@ function avaaLuukku5 () {
     }
 }
 function avaaLuukku6 () {
-    let viikko = {start: "2024-04-20", end: "2024-04-26",};
+    let viikko = {start: "2025-04-20", end: "2025-04-26",};
     let tanaan = new Date();
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
@@ -83,7 +83,7 @@ function avaaLuukku6 () {
     }
 }
 function avaaLuukku7 () {
-    let viikko = {start: "2024-04-20", end: "2024-04-26",};
+    let viikko = {start: "2025-04-20", end: "2025-04-26",};
     let tanaan = new Date();
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
@@ -97,7 +97,7 @@ function avaaLuukku7 () {
     }
 }
 function avaaLuukku8 () {
-    let viikko = {start: "2024-04-20", end: "2024-04-26",};
+    let viikko = {start: "2025-04-20", end: "2025-04-26",};
     let tanaan = new Date();
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
@@ -111,7 +111,7 @@ function avaaLuukku8 () {
     }
 }
 function avaaLuukku9 () {
-    let viikko = {start: "2024-04-20", end: "2024-04-26",};
+    let viikko = {start: "2025-04-20", end: "2025-04-26",};
     let tanaan = new Date();
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
@@ -125,7 +125,7 @@ function avaaLuukku9 () {
     }
 }
 function avaaLuukku10 () {
-    let viikko = {start: "2024-04-20", end: "2024-04-26",};
+    let viikko = {start: "2025-04-20", end: "2025-04-26",};
     let tanaan = new Date();
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
@@ -139,7 +139,7 @@ function avaaLuukku10 () {
     }
 }
 function avaaLuukku11 () {
-    let viikko = {start: "2024-04-20", end: "2024-04-26",};
+    let viikko = {start: "2025-04-20", end: "2025-04-26",};
     let tanaan = new Date();
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
@@ -153,7 +153,7 @@ function avaaLuukku11 () {
     }
 }
 function avaaLuukku12 () {
-    let viikko = {start: "2024-04-20", end: "2024-04-26",};
+    let viikko = {start: "2025-04-20", end: "2025-04-26",};
     let tanaan = new Date();
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
@@ -167,7 +167,7 @@ function avaaLuukku12 () {
     }
 }
 function avaaLuukku13 () {
-    let viikko = {start: "2024-04-20", end: "2024-04-26",};
+    let viikko = {start: "2025-04-20", end: "2025-04-26",};
     let tanaan = new Date();
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
