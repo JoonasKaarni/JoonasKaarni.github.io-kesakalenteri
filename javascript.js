@@ -4,7 +4,9 @@ function avaaLuukku1 () {
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
     let teksti = "Kiasmassa on perjantaina ilmainen sisäänpääsy!";
-    if (tanaan >= start && tanaan <= end) {
+    if (document.getElementById("l1").innerHTML === "Viikko 1 on avattu!<br>" + teksti) {
+        document.getElementById("l1").innerHTML = "Viikko 1"
+    } else if (tanaan >= start && tanaan <= end) {
         document.getElementById("l1").innerHTML = "Viikko 1 on avattu!<br>" + teksti;
     } else if (tanaan > end) {
         document.getElementById("l1").innerHTML = "Viikko 1 on avattu!<br>" + teksti;
@@ -12,16 +14,19 @@ function avaaLuukku1 () {
         document.getElementById("l1").innerHTML = "Viikko 1 on vielä lukittu.";
     }
 }
+
 function avaaLuukku2 () {
     let viikko = {start: "2025-04-20", end: "2025-04-26",};
     let tanaan = new Date();
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
     let teksti = "Luonnontieteellisessä museossa on ilta museossa -tapahtuma!";
-    if (tanaan >= start && tanaan <= end) {
+    if (document.getElementById("l2").innerHTML === "Viikko 2 on avattu!<br>" + teksti) {
+        document.getElementById("l2").innerHTML = "Viikko 2"
+    } else if (tanaan >= start && tanaan <= end) {
         document.getElementById("l2").innerHTML = "Viikko 2 on avattu!<br>" + teksti;
     } else if (tanaan > end) {
-        document.getElementById("l2").innerHTML = "Viikko 2 on avattu!<br>" + teksti;
+        document.getElementById("l2").innerHTML = "Viikko 2 on avattu!<br>" + teksti; 
     } else {
         document.getElementById("l2").innerHTML = "Viikko 2 on vielä lukittu.";
     }
@@ -32,7 +37,9 @@ function avaaLuukku3 () {
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
     let teksti = "Juhannusviikko. Seurasaaressa on ilmainen tapahtuma kokkoineen!";
-    if (tanaan >= start && tanaan <= end) {
+    if (document.getElementById("l3").innerHTML === "Viikko 3 on avattu!<br>" + teksti) {
+        document.getElementById("l3").innerHTML = "Viikko 3"
+    } else if (tanaan >= start && tanaan <= end) {
         document.getElementById("l3").innerHTML = "Viikko 3 on avattu!<br>" + teksti;
     } else if (tanaan > end) {
         document.getElementById("l3").innerHTML = "Viikko 3 on avattu!<br>" + teksti;
@@ -46,7 +53,9 @@ function avaaLuukku4 () {
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
     let teksti = "Helsingin keskustassa juhlitaan Tuska festivaalia, sekä prideä!";
-    if (tanaan >= start && tanaan <= end) {
+    if (document.getElementById("l4").innerHTML === "Viikko 4 on avattu!<br>" + teksti) {
+        document.getElementById("l4").innerHTML = "Viikko 4"
+    } else if (tanaan >= start && tanaan <= end) {
         document.getElementById("l4").innerHTML = "Viikko 4 on avattu!<br>" + teksti;
     } else if (tanaan > end) {
         document.getElementById("l4").innerHTML = "Viikko 4 on avattu!<br>" + teksti;
@@ -60,7 +69,9 @@ function avaaLuukku5 () {
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
     let teksti = "Heurekassa on jääkauden jättiläiset -näyttely!";
-    if (tanaan >= start && tanaan <= end) {
+    if (document.getElementById("l5").innerHTML === "Viikko 5 on avattu!<br>" + teksti) {
+        document.getElementById("l5").innerHTML = "Viikko 5"
+    } else if (tanaan >= start && tanaan <= end) {
         document.getElementById("l5").innerHTML = "Viikko 5 on avattu!<br>" + teksti;
     } else if (tanaan > end) {
         document.getElementById("l5").innerHTML = "Viikko 5 on avattu!<br>" + teksti;
@@ -74,7 +85,9 @@ function avaaLuukku6 () {
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
     let teksti = "Helsinki Cup, tämä jalkapallo tapahtuma kestää koko viikon!";
-    if (tanaan >= start && tanaan <= end) {
+    if (document.getElementById("l6").innerHTML === "Viikko 6 on avattu!<br>" + teksti) {
+        document.getElementById("l6").innerHTML = "Viikko 6"
+    } else if (tanaan >= start && tanaan <= end) {
         document.getElementById("l6").innerHTML = "Viikko 6 on avattu!<br>" + teksti;
     } else if (tanaan > end) {
         document.getElementById("l6").innerHTML = "Viikko 6 on avattu!<br>" + teksti;
@@ -88,7 +101,9 @@ function avaaLuukku7 () {
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
     let teksti = "Olympiapäivä Helsingin olympiastadionilla, tapahtuma on ilmainen!";
-    if (tanaan >= start && tanaan <= end) {
+    if (document.getElementById("l7").innerHTML === "Viikko 7 on avattu!<br>" + teksti) {
+        document.getElementById("l7").innerHTML = "Viikko 7"
+    } else if (tanaan >= start && tanaan <= end) {
         document.getElementById("l7").innerHTML = "Viikko 7 on avattu!<br>" + teksti;
     } else if (tanaan > end) {
         document.getElementById("l7").innerHTML = "Viikko 7 on avattu!<br>" + teksti;
@@ -102,7 +117,9 @@ function avaaLuukku8 () {
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
     let teksti = "Suomenlinnan kesäteatterissa on tarjolla runsaasti näytelmiä!";
-    if (tanaan >= start && tanaan <= end) {
+    if (document.getElementById("l8").innerHTML === "Viikko 8 on avattu!<br>" + teksti) {
+        document.getElementById("l8").innerHTML = "Viikko 8"
+    } else if (tanaan >= start && tanaan <= end) {
         document.getElementById("l8").innerHTML = "Viikko 8 on avattu!<br>" + teksti;
     } else if (tanaan > end) {
         document.getElementById("l8").innerHTML = "Viikko 8 on avattu!<br>" + teksti;
@@ -116,7 +133,9 @@ function avaaLuukku9 () {
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
     let teksti = "Päiväreissu Linnanmäelle, sisäänpääsy on ilmainen!";
-    if (tanaan >= start && tanaan <= end) {
+    if (document.getElementById("l9").innerHTML === "Viikko 9 on avattu!<br>" + teksti) {
+        document.getElementById("l9").innerHTML = "Viikko 9"
+    } else if (tanaan >= start && tanaan <= end) {
         document.getElementById("l9").innerHTML = "Viikko 9 on avattu!<br>" + teksti;
     } else if (tanaan > end) {
         document.getElementById("l9").innerHTML = "Viikko 9 on avattu!<br>" + teksti;
@@ -130,7 +149,9 @@ function avaaLuukku10 () {
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
     let teksti = "Helsingissä juhlitaan Flow festivaaleja!";
-    if (tanaan >= start && tanaan <= end) {
+    if (document.getElementById("l10").innerHTML === "Viikko 10 on avattu!<br>" + teksti) {
+        document.getElementById("l10").innerHTML = "Viikko 10"
+    } else if (tanaan >= start && tanaan <= end) {
         document.getElementById("l10").innerHTML = "Viikko 10 on avattu!<br>" + teksti;
     } else if (tanaan > end) {
         document.getElementById("l10").innerHTML = "Viikko 10 on avattu!<br>" + teksti;
@@ -144,7 +165,9 @@ function avaaLuukku11 () {
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
     let teksti = "Päiväreissu Fallkullan kotieläintilalle!";
-    if (tanaan >= start && tanaan <= end) {
+    if (document.getElementById("l11").innerHTML === "Viikko 11 on avattu!<br>" + teksti) {
+        document.getElementById("l11").innerHTML = "Viikko 11"
+    } else if (tanaan >= start && tanaan <= end) {
         document.getElementById("l11").innerHTML = "Viikko 11 on avattu!<br>" + teksti;
     } else if (tanaan > end) {
         document.getElementById("l11").innerHTML = "Viikko 11 on avattu!<br>" + teksti;
@@ -158,7 +181,9 @@ function avaaLuukku12 () {
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
     let teksti = "Smashing Pumpkins esiintyy Helsingin jäähallissa!";
-    if (tanaan >= start && tanaan <= end) {
+    if (document.getElementById("l12").innerHTML === "Viikko 12 on avattu!<br>" + teksti) {
+        document.getElementById("l12").innerHTML = "Viikko 12"
+    } else if (tanaan >= start && tanaan <= end) {
         document.getElementById("l12").innerHTML = "Viikko 12 on avattu!<br>" + teksti;
     } else if (tanaan > end) {
         document.getElementById("l12").innerHTML = "Viikko 12 on avattu!<br>" + teksti;
@@ -172,7 +197,9 @@ function avaaLuukku13 () {
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
     let teksti = "Venetsialaiset, eli mökkikauden päätösjuhlat. Runsaasti ilotulituksia ympäri pääkaupunkiseutua!";
-    if (tanaan >= start && tanaan <= end) {
+    if (document.getElementById("l13").innerHTML === "Viikko 13 on avattu!<br>" + teksti) {
+        document.getElementById("l13").innerHTML = "Viikko 13"
+    } else if (tanaan >= start && tanaan <= end) {
         document.getElementById("l13").innerHTML = "Viikko 13 on avattu!<br>" + teksti;
     } else if (tanaan > end) {
         document.getElementById("l13").innerHTML = "Viikko 13 on avattu!<br>" + teksti;

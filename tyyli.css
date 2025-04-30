@@ -46,6 +46,7 @@ h1 {
     background-color: white;
     padding: 15px;
     min-width: 90px;
+    max-width: 450px;
     border-radius: 12px;
     transition: transform 0.3s ease, background-color 0.3s ease;
     cursor: pointer;
@@ -53,7 +54,8 @@ h1 {
     font-weight: bold;
     align-self: flex-start;
     transition: all 0.3s ease;
-    white-space: nowrap;
+    white-space: normal;
+    word-wrap: break-word;
 }
 
 .luukku:hover {
