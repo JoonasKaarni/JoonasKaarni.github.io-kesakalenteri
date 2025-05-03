@@ -19,9 +19,20 @@ h1 {
     border-radius: 35px; 
 }
 
+#cheatmode {
+    color: whitesmoke;
+    text-align: center;
+    background-color: #ff0404;
+    padding: 15px;
+    width: 90px;
+    border-radius: 12px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid #1A1818
+}
 #leipateksti {
     color: whitesmoke;
-    opacity: 0.85;
     font-size: 16px;
     text-align: center;
     margin: auto;
@@ -46,7 +57,7 @@ h1 {
     background-color: white;
     padding: 15px;
     min-width: 90px;
-    max-width: 450px;
+    max-width: 300px;
     border-radius: 12px;
     transition: transform 0.3s ease, background-color 0.3s ease;
     cursor: pointer;
@@ -97,7 +108,7 @@ h1 {
     background-color:rgb(255, 85, 0)
 }
 #l12 {
-    background-color:#000000
+    background-color:#373131
 }
 #l13 {
     background-color:rgb(108, 219, 17)

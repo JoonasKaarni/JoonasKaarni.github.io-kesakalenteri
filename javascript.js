@@ -1,6 +1,6 @@
 let tanaan = new Date();
 
-const viikot = [
+let viikot25 = [
     { start: "2025-06-01", end: "2025-06-07"},
     { start: "2025-06-08", end: "2025-06-14"},
     { start: "2025-06-15", end: "2025-06-21"},
@@ -15,6 +15,32 @@ const viikot = [
     { start: "2025-08-17", end: "2025-08-23"},
     { start: "2025-08-24", end: "2025-08-30"}
 ]
+let viikot24 = [
+    { start: "2024-06-01", end: "2024-06-07"},
+    { start: "2024-06-08", end: "2024-06-14"},
+    { start: "2024-06-15", end: "2024-06-21"},
+    { start: "2024-06-22", end: "2024-06-28"},
+    { start: "2024-06-29", end: "2024-07-05"},
+    { start: "2024-07-06", end: "2024-07-12"},
+    { start: "2024-07-13", end: "2024-07-19"},
+    { start: "2024-07-20", end: "2024-07-26"},
+    { start: "2024-07-27", end: "2024-08-02"},
+    { start: "2024-08-03", end: "2024-08-09"},
+    { start: "2024-08-10", end: "2024-08-16"},
+    { start: "2024-08-17", end: "2024-08-23"},
+    { start: "2024-08-24", end: "2024-08-30"}
+]
+let viikot = [...viikot25]
+function enterCheatmode() {
+    if (viikot[0].start === "2025-06-01") {
+        viikot = [...viikot24]
+        cheatmode.style.backgroundColor = "#1ef901";
+    } else if (viikot[0].start === "2024-06-01") {
+        viikot = [...viikot25]
+        cheatmode.style.backgroundColor = "#ff0404";
+    }
+}
+
 function avaaLuukku1 () {
     let viikko = viikot[0];
     let start = new Date(viikko.start);
