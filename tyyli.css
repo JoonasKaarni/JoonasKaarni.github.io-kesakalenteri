@@ -67,6 +67,11 @@ h1 {
     transition: all 0.3s ease;
     white-space: normal;
     word-wrap: break-word;
+    text-shadow: 
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
 }
 
 .luukku:hover {
