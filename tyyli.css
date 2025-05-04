@@ -61,7 +61,7 @@ h1 {
     border-radius: 12px;
     transition: transform 0.3s ease, background-color 0.3s ease;
     cursor: pointer;
-    color: rgb(237, 234, 234);
+    color: rgb(255, 253, 253);
     font-weight: bold;
     align-self: flex-start;
     transition: all 0.3s ease;
@@ -78,10 +78,10 @@ h1 {
     background-color:rgb(255, 35, 171)
 }
 #l2 {
-    background-color:rgb(233, 209, 55)
+    background-color:rgb(208, 187, 50)
 }
 #l3 {
-    background-color:rgb(125, 241, 9)
+    background-color:rgb(120, 221, 18)
 }
 #l4 {
     background-color:rgb(204, 11, 11)
@@ -93,7 +93,7 @@ h1 {
     background-color:rgb(26, 168, 35)
 }
 #l7 {
-    background-color:rgb(236, 194, 143)
+    background-color:rgb(207, 170, 124)
 }
 #l8 {
     background-color:blue
@@ -102,7 +102,7 @@ h1 {
     background-color:rgb(233, 195, 29)
 }
 #l10 {
-    background-color:rgb(219, 216, 12)
+    background-color:rgb(203, 200, 14)
 }
 #l11 {
     background-color:rgb(255, 85, 0)
