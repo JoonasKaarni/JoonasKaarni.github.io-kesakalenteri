@@ -61,7 +61,7 @@ h1 {
     border-radius: 12px;
     transition: transform 0.3s ease, background-color 0.3s ease;
     cursor: pointer;
-    color: rgb(242, 224, 224);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     align-self: flex-start;
     transition: all 0.3s ease;
@@ -81,7 +81,7 @@ h1 {
     background-color:rgb(204, 183, 45)
 }
 #l3 {
-    background-color:rgb(114, 210, 19)
+    background-color:rgb(96, 171, 20)
 }
 #l4 {
     background-color:rgb(204, 11, 11)
