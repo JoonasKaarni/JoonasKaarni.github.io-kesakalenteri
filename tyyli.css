@@ -61,7 +61,7 @@ h1 {
     border-radius: 12px;
     transition: transform 0.3s ease, background-color 0.3s ease;
     cursor: pointer;
-    color: rgb(255, 253, 253);
+    color: rgb(242, 224, 224);
     font-weight: bold;
     align-self: flex-start;
     transition: all 0.3s ease;
