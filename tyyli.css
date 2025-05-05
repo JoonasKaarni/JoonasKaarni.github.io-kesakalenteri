@@ -53,6 +53,10 @@ h1 {
     align-items: flex-start;
 }
 
+.lisatietoja-linkki {
+    color: rgb(210, 235, 252);
+  }
+
 .luukku {
     background-color: white;
     padding: 15px;

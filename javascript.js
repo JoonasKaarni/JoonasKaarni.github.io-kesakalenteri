@@ -45,8 +45,8 @@ function avaaLuukku1 () {
     let viikko = viikot[0];
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
-    let teksti = "Kiasmassa on perjantaina ilmainen sisäänpääsy!";
-    if (document.getElementById("l1").innerHTML === "Viikko 1 on avattu!<br>" + teksti) {
+    let teksti = 'Kiasmassa on perjantaina ilmainen sisäänpääsy! <a href="https://www.kiasma.fi" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
+        if (document.getElementById("l1").innerHTML === "Viikko 1 on avattu!<br>" + teksti) {
         document.getElementById("l1").innerHTML = "Viikko 1"
     } else if (document.getElementById("l1").innerHTML === "Viikko 1 on vielä lukittu.") {
         document.getElementById("l1").innerHTML = "Viikko 1"
@@ -63,7 +63,7 @@ function avaaLuukku2 () {
     let viikko = viikot[1];
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
-    let teksti = "Luonnontieteellisessä museossa on ilta museossa -tapahtuma!";
+    let teksti = 'Luonnontieteellisessä museossa on ilta museossa -tapahtuma. <a href="https://www.helsinki.fi/fi/luomus/yleisokohteet/luonnontieteellinen-museo" target="_blank" class="lisatietoja-linkki"> Lisätietoja</a>';
     if (document.getElementById("l2").innerHTML === "Viikko 2 on avattu!<br>" + teksti) {
         document.getElementById("l2").innerHTML = "Viikko 2"
     } else if (document.getElementById("l2").innerHTML === "Viikko 2 on vielä lukittu.") {
@@ -80,7 +80,7 @@ function avaaLuukku3 () {
     let viikko = viikot[2];
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
-    let teksti = "Juhannusviikko. Seurasaaressa on ilmainen tapahtuma kokkoineen!";
+    let teksti = 'Juhannusviikko. Seurasaaressa on ilmainen tapahtuma kokkoineen! <a href="https://www.juhannusvalkeat.fi/new/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
     if (document.getElementById("l3").innerHTML === "Viikko 3 on avattu!<br>" + teksti) {
         document.getElementById("l3").innerHTML = "Viikko 3"
     } else if (document.getElementById("l3").innerHTML === "Viikko 3 on vielä lukittu.") {
@@ -97,7 +97,7 @@ function avaaLuukku4 () {
     let viikko = viikot[3];
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
-    let teksti = "Helsingin keskustassa juhlitaan Tuska festivaalia, sekä prideä!";
+    let teksti = 'Helsingin keskustassa juhlitaan Tuska festivaalia, sekä prideä! <a href="https://tuska.fi/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
     if (document.getElementById("l4").innerHTML === "Viikko 4 on avattu!<br>" + teksti) {
         document.getElementById("l4").innerHTML = "Viikko 4"
     } else if (document.getElementById("l4").innerHTML === "Viikko 4 on vielä lukittu.") {
@@ -114,7 +114,7 @@ function avaaLuukku5 () {
     let viikko = viikot[4];
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
-    let teksti = "Heurekassa on jääkauden jättiläiset -näyttely!";
+    let teksti = 'Heurekassa on jääkauden jättiläiset -näyttely! <a href="https://www.heureka.fi/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
     if (document.getElementById("l5").innerHTML === "Viikko 5 on avattu!<br>" + teksti) {
         document.getElementById("l5").innerHTML = "Viikko 5"
     } else if (document.getElementById("l5").innerHTML === "Viikko 5 on vielä lukittu.") {
@@ -131,7 +131,7 @@ function avaaLuukku6 () {
     let viikko = viikot[5];
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
-    let teksti = "Helsinki Cup, tämä jalkapallo tapahtuma kestää koko viikon!";
+    let teksti = 'Helsinki Cup, tämä jalkapallo tapahtuma kestää koko viikon! <a href="https://helsinkicup.fi/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
     if (document.getElementById("l6").innerHTML === "Viikko 6 on avattu!<br>" + teksti) {
         document.getElementById("l6").innerHTML = "Viikko 6"
     } else if (document.getElementById("l6").innerHTML === "Viikko 6 on vielä lukittu.") {
@@ -148,7 +148,7 @@ function avaaLuukku7 () {
     let viikko = viikot[6];
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
-    let teksti = "Olympiapäivä Helsingin olympiastadionilla, tapahtuma on ilmainen!";
+    let teksti = 'Tikkurila fesivaalia juhlitaan Tikkurilan urheilukentällä! <a href="https://tikkurilafestivaali.fi/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
     if (document.getElementById("l7").innerHTML === "Viikko 7 on avattu!<br>" + teksti) {
         document.getElementById("l7").innerHTML = "Viikko 7"
     } else if (document.getElementById("l7").innerHTML === "Viikko 7 on vielä lukittu.") {
@@ -165,7 +165,7 @@ function avaaLuukku8 () {
     let viikko = viikot[7];
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
-    let teksti = "Suomenlinnan kesäteatterissa on tarjolla runsaasti näytelmiä!";
+    let teksti = 'Suomenlinnan kesäteatterissa on tarjolla runsaasti näytelmiä! <a href="https://www.ryhmateatteri.fi/info/suomenlinnan-kesateatteri/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
     if (document.getElementById("l8").innerHTML === "Viikko 8 on avattu!<br>" + teksti) {
         document.getElementById("l8").innerHTML = "Viikko 8"
     } else if (document.getElementById("l8").innerHTML === "Viikko 8 on vielä lukittu.") {
@@ -182,7 +182,7 @@ function avaaLuukku9 () {
     let viikko = viikot[8];
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
-    let teksti = "Päiväreissu Linnanmäelle, sisäänpääsy on ilmainen!";
+    let teksti = 'Päiväreissu Linnanmäelle, sisäänpääsy on ilmainen <a href="https://www.linnanmaki.fi/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
     if (document.getElementById("l9").innerHTML === "Viikko 9 on avattu!<br>" + teksti) {
         document.getElementById("l9").innerHTML = "Viikko 9"
     } else if (document.getElementById("l9").innerHTML === "Viikko 9 on vielä lukittu.") {
@@ -199,7 +199,7 @@ function avaaLuukku10 () {
     let viikko = viikot[9];
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
-    let teksti = "Helsingissä juhlitaan Flow festivaaleja!";
+    let teksti = 'Helsingissä juhlitaan Flow festivaaleja! <a href="https://www.flowfestival.com/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
     if (document.getElementById("l10").innerHTML === "Viikko 10 on avattu!<br>" + teksti) {
         document.getElementById("l10").innerHTML = "Viikko 10"
     } else if (document.getElementById("l10").innerHTML === "Viikko 10 on vielä lukittu.") {
@@ -216,7 +216,7 @@ function avaaLuukku11 () {
     let viikko = viikot[10];
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
-    let teksti = "Päiväreissu Fallkullan kotieläintilalle!";
+    let teksti = 'Päiväreissu Fallkullan kotieläintilalle! <a href="https://nuorten.hel.fi/nuorisotalot/fallkulla/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
     if (document.getElementById("l11").innerHTML === "Viikko 11 on avattu!<br>" + teksti) {
         document.getElementById("l11").innerHTML = "Viikko 11"
     } else if (document.getElementById("l11").innerHTML === "Viikko 11 on vielä lukittu.") {
@@ -233,7 +233,7 @@ function avaaLuukku12 () {
     let viikko = viikot[11];
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
-    let teksti = "Smashing Pumpkins esiintyy Helsingin jäähallissa!";
+    let teksti = 'The Smashing Pumpkins esiintyy Helsingin jäähallissa! <a href="https://www.livenation.fi/event/the-smashing-pumpkins-the-aghori-tour-helsinki-tickets-edp1566939" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
     if (document.getElementById("l12").innerHTML === "Viikko 12 on avattu!<br>" + teksti) {
         document.getElementById("l12").innerHTML = "Viikko 12"
     } else if (document.getElementById("l12").innerHTML === "Viikko 12 on vielä lukittu.") {
@@ -250,7 +250,7 @@ function avaaLuukku13 () {
     let viikko = viikot[12];
     let start = new Date(viikko.start);
     let end = new Date(viikko.end);
-    let teksti = "Venetsialaiset, eli mökkikauden päätösjuhlat. Runsaasti ilotulituksia ympäri pääkaupunkiseutua!";
+    let teksti = 'Venetsialaiset, eli mökkikauden päätösjuhlat. Runsaasti ilotulituksia ympäri pääkaupunkiseutua! <a href="https://kaupunginosat.fi/tapahtuma/venetsialaiset-stadissa-la-31-8-eri-kaupunginosissa/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
     if (document.getElementById("l13").innerHTML === "Viikko 13 on avattu!<br>" + teksti) {
         document.getElementById("l13").innerHTML = "Viikko 13"
     } else if (document.getElementById("l13").innerHTML === "Viikko 13 on vielä lukittu.") {
