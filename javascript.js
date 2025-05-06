@@ -46,16 +46,16 @@ function avaaLuukku1 () {
     let start = new Date(Vko.start);
     let end = new Date(Vko.end);
     let teksti = 'Kiasmassa on perjantaina ilmainen sisäänpääsy! <a href="https://www.kiasma.fi" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
-        if (document.getElementById("l1").innerHTML === "Vko 1 on avattu!<br>" + teksti) {
+        if (document.getElementById("l1").innerHTML === "Vko 1 (1.6 - 7.6) on avattu!<br>" + teksti) {
         document.getElementById("l1").innerHTML = "Vko 1"
-    } else if (document.getElementById("l1").innerHTML === "Vko 1 on vielä lukittu.") {
+    } else if (document.getElementById("l1").innerHTML === "Vko 1 (1.6 - 7.6) on vielä lukittu.") {
         document.getElementById("l1").innerHTML = "Vko 1"
     } else if (tanaan >= start && tanaan <= end) {
-        document.getElementById("l1").innerHTML = "Vko 1 on avattu!<br>" + teksti;
+        document.getElementById("l1").innerHTML = "Vko 1 (1.6 - 7.6) on avattu!<br>" + teksti;
     } else if (tanaan > end) {
-        document.getElementById("l1").innerHTML = "Vko 1 on avattu!<br>" + teksti;
+        document.getElementById("l1").innerHTML = "Vko 1 (1.6 - 7.6) on avattu!<br>" + teksti;
     } else {
-        document.getElementById("l1").innerHTML = "Vko 1 on vielä lukittu.";
+        document.getElementById("l1").innerHTML = "Vko 1 (1.6 - 7.6) on vielä lukittu.";
     }
 }
 
@@ -64,16 +64,16 @@ function avaaLuukku2 () {
     let start = new Date(Vko.start);
     let end = new Date(Vko.end);
     let teksti = 'Luonnontieteellisessä museossa on ilta museossa -tapahtuma. <a href="https://www.helsinki.fi/fi/luomus/yleisokohteet/luonnontieteellinen-museo" target="_blank" class="lisatietoja-linkki"> Lisätietoja</a>';
-    if (document.getElementById("l2").innerHTML === "Vko 2 on avattu!<br>" + teksti) {
+    if (document.getElementById("l2").innerHTML === "Vko 2 (8.6 - 14.6) on avattu!<br>" + teksti) {
         document.getElementById("l2").innerHTML = "Vko 2"
-    } else if (document.getElementById("l2").innerHTML === "Vko 2 on vielä lukittu.") {
+    } else if (document.getElementById("l2").innerHTML === "Vko 2 (8.6 - 14.6) on vielä lukittu.") {
         document.getElementById("l2").innerHTML = "Vko 2"
     } else if (tanaan >= start && tanaan <= end) {
-        document.getElementById("l2").innerHTML = "Vko 2 on avattu!<br>" + teksti;
+        document.getElementById("l2").innerHTML = "Vko 2 (8.6 - 14.6) on avattu!<br>" + teksti;
     } else if (tanaan > end) {
-        document.getElementById("l2").innerHTML = "Vko 2 on avattu!<br>" + teksti; 
+        document.getElementById("l2").innerHTML = "Vko 2 (8.6 - 14.6) on avattu!<br>" + teksti; 
     } else {
-        document.getElementById("l2").innerHTML = "Vko 2 on vielä lukittu.";
+        document.getElementById("l2").innerHTML = "Vko 2 (8.6 - 14.6) on vielä lukittu.";
     }
 }
 function avaaLuukku3 () {
@@ -81,16 +81,16 @@ function avaaLuukku3 () {
     let start = new Date(Vko.start);
     let end = new Date(Vko.end);
     let teksti = 'JuhannusVko. Seurasaaressa on ilmainen tapahtuma kokkoineen! <a href="https://www.juhannusvalkeat.fi/new/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
-    if (document.getElementById("l3").innerHTML === "Vko 3 on avattu!<br>" + teksti) {
+    if (document.getElementById("l3").innerHTML === "Vko 3 (15.6 - 21.6) on avattu!<br>" + teksti) {
         document.getElementById("l3").innerHTML = "Vko 3"
-    } else if (document.getElementById("l3").innerHTML === "Vko 3 on vielä lukittu.") {
+    } else if (document.getElementById("l3").innerHTML === "Vko 3 (15.6 - 21.6) on vielä lukittu.") {
         document.getElementById("l3").innerHTML = "Vko 3"
     } else if (tanaan >= start && tanaan <= end) {
-        document.getElementById("l3").innerHTML = "Vko 3 on avattu!<br>" + teksti;
+        document.getElementById("l3").innerHTML = "Vko 3 (15.6 - 21.6) on avattu!<br>" + teksti;
     } else if (tanaan > end) {
-        document.getElementById("l3").innerHTML = "Vko 3 on avattu!<br>" + teksti;
+        document.getElementById("l3").innerHTML = "Vko 3 (15.6 - 21.6) on avattu!<br>" + teksti;
     } else {
-        document.getElementById("l3").innerHTML = "Vko 3 on vielä lukittu.";
+        document.getElementById("l3").innerHTML = "Vko 3 (15.6 - 21.6) on vielä lukittu.";
     }
 }
 function avaaLuukku4 () {
@@ -98,16 +98,16 @@ function avaaLuukku4 () {
     let start = new Date(Vko.start);
     let end = new Date(Vko.end);
     let teksti = 'Helsingin keskustassa juhlitaan Tuska festivaalia, sekä prideä! <a href="https://tuska.fi/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
-    if (document.getElementById("l4").innerHTML === "Vko 4 on avattu!<br>" + teksti) {
+    if (document.getElementById("l4").innerHTML === "Vko 4 (22.6 - 28.6) on avattu!<br>" + teksti) {
         document.getElementById("l4").innerHTML = "Vko 4"
-    } else if (document.getElementById("l4").innerHTML === "Vko 4 on vielä lukittu.") {
+    } else if (document.getElementById("l4").innerHTML === "Vko 4 (22.6 - 28.6) on vielä lukittu.") {
         document.getElementById("l4").innerHTML = "Vko 4"
     } else if (tanaan >= start && tanaan <= end) {
-        document.getElementById("l4").innerHTML = "Vko 4 on avattu!<br>" + teksti;
+        document.getElementById("l4").innerHTML = "Vko 4 (22.6 - 28.6) on avattu!<br>" + teksti;
     } else if (tanaan > end) {
-        document.getElementById("l4").innerHTML = "Vko 4 on avattu!<br>" + teksti;
+        document.getElementById("l4").innerHTML = "Vko 4 (22.6 - 28.6) on avattu!<br>" + teksti;
     } else {
-        document.getElementById("l4").innerHTML = "Vko 4 on vielä lukittu.";
+        document.getElementById("l4").innerHTML = "Vko 4 (22.6 - 28.6) on vielä lukittu.";
     }
 }
 function avaaLuukku5 () {
@@ -115,16 +115,16 @@ function avaaLuukku5 () {
     let start = new Date(Vko.start);
     let end = new Date(Vko.end);
     let teksti = 'Heurekassa on jääkauden jättiläiset -näyttely! <a href="https://www.heureka.fi/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
-    if (document.getElementById("l5").innerHTML === "Vko 5 on avattu!<br>" + teksti) {
+    if (document.getElementById("l5").innerHTML === "Vko 5 (29.6 - 5.7) on avattu!<br>" + teksti) {
         document.getElementById("l5").innerHTML = "Vko 5"
-    } else if (document.getElementById("l5").innerHTML === "Vko 5 on vielä lukittu.") {
+    } else if (document.getElementById("l5").innerHTML === "Vko 5 (29.6 - 5.7) on vielä lukittu.") {
         document.getElementById("l5").innerHTML = "Vko 5"
     } else if (tanaan >= start && tanaan <= end) {
-        document.getElementById("l5").innerHTML = "Vko 5 on avattu!<br>" + teksti;
+        document.getElementById("l5").innerHTML = "Vko 5 (29.6 - 5.7) on avattu!<br>" + teksti;
     } else if (tanaan > end) {
-        document.getElementById("l5").innerHTML = "Vko 5 on avattu!<br>" + teksti;
+        document.getElementById("l5").innerHTML = "Vko 5 (29.6 - 5.7) on avattu!<br>" + teksti;
     } else {
-        document.getElementById("l5").innerHTML = "Vko 5 on vielä lukittu.";
+        document.getElementById("l5").innerHTML = "Vko 5 (29.6 - 5.7) on vielä lukittu.";
     }
 }
 function avaaLuukku6 () {
@@ -132,16 +132,16 @@ function avaaLuukku6 () {
     let start = new Date(Vko.start);
     let end = new Date(Vko.end);
     let teksti = 'Helsinki Cup, tämä jalkapallo tapahtuma kestää koko viikon! <a href="https://helsinkicup.fi/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
-    if (document.getElementById("l6").innerHTML === "Vko 6 on avattu!<br>" + teksti) {
+    if (document.getElementById("l6").innerHTML === "Vko 6 (6.7 - 12.7) on avattu!<br>" + teksti) {
         document.getElementById("l6").innerHTML = "Vko 6"
-    } else if (document.getElementById("l6").innerHTML === "Vko 6 on vielä lukittu.") {
+    } else if (document.getElementById("l6").innerHTML === "Vko 6 (6.7 - 12.7) on vielä lukittu.") {
         document.getElementById("l6").innerHTML = "Vko 6"
     } else if (tanaan >= start && tanaan <= end) {
-        document.getElementById("l6").innerHTML = "Vko 6 on avattu!<br>" + teksti;
+        document.getElementById("l6").innerHTML = "Vko 6 (6.7 - 12.7) on avattu!<br>" + teksti;
     } else if (tanaan > end) {
-        document.getElementById("l6").innerHTML = "Vko 6 on avattu!<br>" + teksti;
+        document.getElementById("l6").innerHTML = "Vko 6 (6.7 - 12.7) on avattu!<br>" + teksti;
     } else {
-        document.getElementById("l6").innerHTML = "Vko 6 on vielä lukittu.";
+        document.getElementById("l6").innerHTML = "Vko 6 (6.7 - 12.7) on vielä lukittu.";
     }
 }
 function avaaLuukku7 () {
@@ -149,16 +149,16 @@ function avaaLuukku7 () {
     let start = new Date(Vko.start);
     let end = new Date(Vko.end);
     let teksti = 'Tikkurila fesivaalia juhlitaan Tikkurilan urheilukentällä! <a href="https://tikkurilafestivaali.fi/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
-    if (document.getElementById("l7").innerHTML === "Vko 7 on avattu!<br>" + teksti) {
+    if (document.getElementById("l7").innerHTML === "Vko 7 (13.7 - 19.7) on avattu!<br>" + teksti) {
         document.getElementById("l7").innerHTML = "Vko 7"
-    } else if (document.getElementById("l7").innerHTML === "Vko 7 on vielä lukittu.") {
+    } else if (document.getElementById("l7").innerHTML === "Vko 7 (13.7 - 19.7) on vielä lukittu.") {
         document.getElementById("l7").innerHTML = "Vko 7"
     } else if (tanaan >= start && tanaan <= end) {
-        document.getElementById("l7").innerHTML = "Vko 7 on avattu!<br>" + teksti;
+        document.getElementById("l7").innerHTML = "Vko 7 (13.7 - 19.7) on avattu!<br>" + teksti;
     } else if (tanaan > end) {
-        document.getElementById("l7").innerHTML = "Vko 7 on avattu!<br>" + teksti;
+        document.getElementById("l7").innerHTML = "Vko 7 (13.7 - 19.7) on avattu!<br>" + teksti;
     } else {
-        document.getElementById("l7").innerHTML = "Vko 7 on vielä lukittu.";
+        document.getElementById("l7").innerHTML = "Vko 7 (13.7 - 19.7) on vielä lukittu.";
     }
 }
 function avaaLuukku8 () {
@@ -166,16 +166,16 @@ function avaaLuukku8 () {
     let start = new Date(Vko.start);
     let end = new Date(Vko.end);
     let teksti = 'Suomenlinnan kesäteatterissa on tarjolla runsaasti näytelmiä! <a href="https://www.ryhmateatteri.fi/info/suomenlinnan-kesateatteri/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
-    if (document.getElementById("l8").innerHTML === "Vko 8 on avattu!<br>" + teksti) {
+    if (document.getElementById("l8").innerHTML === "Vko 8 (20.7 - 26.7) on avattu!<br>" + teksti) {
         document.getElementById("l8").innerHTML = "Vko 8"
-    } else if (document.getElementById("l8").innerHTML === "Vko 8 on vielä lukittu.") {
+    } else if (document.getElementById("l8").innerHTML === "Vko 8 (20.7 - 26.7) on vielä lukittu.") {
         document.getElementById("l8").innerHTML = "Vko 8"
     } else if (tanaan >= start && tanaan <= end) {
-        document.getElementById("l8").innerHTML = "Vko 8 on avattu!<br>" + teksti;
+        document.getElementById("l8").innerHTML = "Vko 8 (20.7 - 26.7) on avattu!<br>" + teksti;
     } else if (tanaan > end) {
-        document.getElementById("l8").innerHTML = "Vko 8 on avattu!<br>" + teksti;
+        document.getElementById("l8").innerHTML = "Vko 8 (20.7 - 26.7) on avattu!<br>" + teksti;
     } else {
-        document.getElementById("l8").innerHTML = "Vko 8 on vielä lukittu.";
+        document.getElementById("l8").innerHTML = "Vko 8 (20.7 - 26.7) on vielä lukittu.";
     }
 }
 function avaaLuukku9 () {
@@ -183,16 +183,16 @@ function avaaLuukku9 () {
     let start = new Date(Vko.start);
     let end = new Date(Vko.end);
     let teksti = 'Päiväreissu Linnanmäelle, sisäänpääsy on ilmainen <a href="https://www.linnanmaki.fi/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
-    if (document.getElementById("l9").innerHTML === "Vko 9 on avattu!<br>" + teksti) {
+    if (document.getElementById("l9").innerHTML === "Vko 9 (27.7 - 2.8) on avattu!<br>" + teksti) {
         document.getElementById("l9").innerHTML = "Vko 9"
-    } else if (document.getElementById("l9").innerHTML === "Vko 9 on vielä lukittu.") {
+    } else if (document.getElementById("l9").innerHTML === "Vko 9 (27.7 - 2.8) on vielä lukittu.") {
         document.getElementById("l9").innerHTML = "Vko 9"
     } else if (tanaan >= start && tanaan <= end) {
-        document.getElementById("l9").innerHTML = "Vko 9 on avattu!<br>" + teksti;
+        document.getElementById("l9").innerHTML = "Vko 9 (27.7 - 2.8) on avattu!<br>" + teksti;
     } else if (tanaan > end) {
-        document.getElementById("l9").innerHTML = "Vko 9 on avattu!<br>" + teksti;
+        document.getElementById("l9").innerHTML = "Vko 9 (27.7 - 2.8) on avattu!<br>" + teksti;
     } else {
-        document.getElementById("l9").innerHTML = "Vko 9 on vielä lukittu.";
+        document.getElementById("l9").innerHTML = "Vko 9 (27.7 - 2.8) on vielä lukittu.";
     }
 }
 function avaaLuukku10 () {
@@ -200,16 +200,16 @@ function avaaLuukku10 () {
     let start = new Date(Vko.start);
     let end = new Date(Vko.end);
     let teksti = 'Helsingissä juhlitaan Flow festivaaleja! <a href="https://www.flowfestival.com/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
-    if (document.getElementById("l10").innerHTML === "Vko 10 on avattu!<br>" + teksti) {
+    if (document.getElementById("l10").innerHTML === "Vko 10 (3.8 - 9.8) on avattu!<br>" + teksti) {
         document.getElementById("l10").innerHTML = "Vko 10"
-    } else if (document.getElementById("l10").innerHTML === "Vko 10 on vielä lukittu.") {
+    } else if (document.getElementById("l10").innerHTML === "Vko 10 (3.8 - 9.8) on vielä lukittu.") {
         document.getElementById("l10").innerHTML = "Vko 10"
     } else if (tanaan >= start && tanaan <= end) {
-        document.getElementById("l10").innerHTML = "Vko 10 on avattu!<br>" + teksti;
+        document.getElementById("l10").innerHTML = "Vko 10 (3.8 - 9.8) on avattu!<br>" + teksti;
     } else if (tanaan > end) {
-        document.getElementById("l10").innerHTML = "Vko 10 on avattu!<br>" + teksti;
+        document.getElementById("l10").innerHTML = "Vko 10 (3.8 - 9.8) on avattu!<br>" + teksti;
     } else {
-        document.getElementById("l10").innerHTML = "Vko 10 on vielä lukittu.";
+        document.getElementById("l10").innerHTML = "Vko 10 (3.8 - 9.8) on vielä lukittu.";
     }
 }
 function avaaLuukku11 () {
@@ -217,16 +217,16 @@ function avaaLuukku11 () {
     let start = new Date(Vko.start);
     let end = new Date(Vko.end);
     let teksti = 'Päiväreissu Fallkullan kotieläintilalle! <a href="https://nuorten.hel.fi/nuorisotalot/fallkulla/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
-    if (document.getElementById("l11").innerHTML === "Vko 11 on avattu!<br>" + teksti) {
+    if (document.getElementById("l11").innerHTML === "Vko 11 (10.8 - 16.8) on avattu!<br>" + teksti) {
         document.getElementById("l11").innerHTML = "Vko 11"
-    } else if (document.getElementById("l11").innerHTML === "Vko 11 on vielä lukittu.") {
+    } else if (document.getElementById("l11").innerHTML === "Vko 11 (10.8 - 16.8) on vielä lukittu.") {
         document.getElementById("l11").innerHTML = "Vko 11"
     } else if (tanaan >= start && tanaan <= end) {
-        document.getElementById("l11").innerHTML = "Vko 11 on avattu!<br>" + teksti;
+        document.getElementById("l11").innerHTML = "Vko 11 (10.8 - 16.8) on avattu!<br>" + teksti;
     } else if (tanaan > end) {
-        document.getElementById("l11").innerHTML = "Vko 11 on avattu!<br>" + teksti;
+        document.getElementById("l11").innerHTML = "Vko 11 (10.8 - 16.8) on avattu!<br>" + teksti;
     } else {
-        document.getElementById("l11").innerHTML = "Vko 11 on vielä lukittu.";
+        document.getElementById("l11").innerHTML = "Vko 11 (10.8 - 16.8) on vielä lukittu.";
     }
 }
 function avaaLuukku12 () {
@@ -234,16 +234,16 @@ function avaaLuukku12 () {
     let start = new Date(Vko.start);
     let end = new Date(Vko.end);
     let teksti = 'The Smashing Pumpkins esiintyy Helsingin jäähallissa! <a href="https://www.livenation.fi/event/the-smashing-pumpkins-the-aghori-tour-helsinki-tickets-edp1566939" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
-    if (document.getElementById("l12").innerHTML === "Vko 12 on avattu!<br>" + teksti) {
+    if (document.getElementById("l12").innerHTML === "Vko 12 (17.8 - 23.8) on avattu!<br>" + teksti) {
         document.getElementById("l12").innerHTML = "Vko 12"
-    } else if (document.getElementById("l12").innerHTML === "Vko 12 on vielä lukittu.") {
+    } else if (document.getElementById("l12").innerHTML === "Vko 12 (17.8 - 23.8) on vielä lukittu.") {
         document.getElementById("l12").innerHTML = "Vko 12"
     } else if (tanaan >= start && tanaan <= end) {
-        document.getElementById("l12").innerHTML = "Vko 12 on avattu!<br>" + teksti;
+        document.getElementById("l12").innerHTML = "Vko 12 (17.8 - 23.8) on avattu!<br>" + teksti;
     } else if (tanaan > end) {
-        document.getElementById("l12").innerHTML = "Vko 12 on avattu!<br>" + teksti;
+        document.getElementById("l12").innerHTML = "Vko 12 (17.8 - 23.8) on avattu!<br>" + teksti;
     } else {
-        document.getElementById("l12").innerHTML = "Vko 12 on vielä lukittu.";
+        document.getElementById("l12").innerHTML = "Vko 12 (17.8 - 23.8) on vielä lukittu.";
     }
 }
 function avaaLuukku13 () {
@@ -251,15 +251,15 @@ function avaaLuukku13 () {
     let start = new Date(Vko.start);
     let end = new Date(Vko.end);
     let teksti = 'Venetsialaiset, eli mökkikauden päätösjuhlat. Runsaasti ilotulituksia ympäri pääkaupunkiseutua! <a href="https://kaupunginosat.fi/tapahtuma/venetsialaiset-stadissa-la-31-8-eri-kaupunginosissa/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
-    if (document.getElementById("l13").innerHTML === "Vko 13 on avattu!<br>" + teksti) {
+    if (document.getElementById("l13").innerHTML === "Vko 13 (24.8 - 30.8) on avattu!<br>" + teksti) {
         document.getElementById("l13").innerHTML = "Vko 13"
-    } else if (document.getElementById("l13").innerHTML === "Vko 13 on vielä lukittu.") {
+    } else if (document.getElementById("l13").innerHTML === "Vko 13 (24.8 - 30.8) on vielä lukittu.") {
         document.getElementById("l13").innerHTML = "Vko 13"
     } else if (tanaan >= start && tanaan <= end) {
-        document.getElementById("l13").innerHTML = "Vko 13 on avattu!<br>" + teksti;
+        document.getElementById("l13").innerHTML = "Vko 13 (24.8 - 30.8) on avattu!<br>" + teksti;
     } else if (tanaan > end) {
-        document.getElementById("l13").innerHTML = "Vko 13 on avattu!<br>" + teksti;
+        document.getElementById("l13").innerHTML = "Vko 13 (24.8 - 30.8) on avattu!<br>" + teksti;
     } else {
-        document.getElementById("l13").innerHTML = "Vko 13 on vielä lukittu.";
+        document.getElementById("l13").innerHTML = "Vko 13 (24.8 - 30.8) on vielä lukittu.";
     }
 }
