@@ -44,7 +44,7 @@ function enterCheatmode() {
 function avaaLuukku1 () {
     let Vko = viikot[0];
     let start = new Date(Vko.start);
-    let teksti = ' <a href="" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
+    let teksti = 'Päivä piknik lammassaareen! <a href="https://www.myhelsinki.fi/fi/places/lammassaari-2/" target="_blank" class="lisatietoja-linkki">Lisätietoja</a>';
         if (document.getElementById("l1").innerHTML === "Vko 1 (19.5 - 25.5) on avattu!<br>" + teksti) {
         document.getElementById("l1").innerHTML = "Vko 1"
     } else if (document.getElementById("l1").innerHTML === "Vko 1 (19.5 - 25.5) on vielä lukittu.") {
@@ -59,7 +59,7 @@ function avaaLuukku1 () {
 function avaaLuukku2 () {
     let Vko = viikot[1];
     let start = new Date(Vko.start);
-    let teksti = '<a href="" target="_blank" class="lisatietoja-linkki"> Lisätietoja</a>';
+    let teksti = 'Pariisilainen Oracle Sisters konsertoi Korjaamolla! <a href="https://korjaamo.fi/event/oracle-sisters-fra/" target="_blank" class="lisatietoja-linkki"> Lisätietoja</a>';
     if (document.getElementById("l2").innerHTML === "Vko 2 (26.5 - 1.6) on avattu!<br>" + teksti) {
         document.getElementById("l2").innerHTML = "Vko 2"
     } else if (document.getElementById("l2").innerHTML === "Vko 2 (26.5 - 1.6) on vielä lukittu.") {
