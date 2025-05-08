@@ -49,7 +49,7 @@ function avaaLuukku1 () {
         document.getElementById("l1").innerHTML = "Vko 1"
     } else if (document.getElementById("l1").innerHTML === "Vko 1 (19.5 - 25.5) on vielä lukittu.") {
         document.getElementById("l1").innerHTML = "Vko 1"
-    } else if (tanaan > start) {
+    } else if (tanaan >= start) {
         document.getElementById("l1").innerHTML = "Vko 1 (19.5 - 25.5) on avattu!<br>" + teksti;
     } else {
         document.getElementById("l1").innerHTML = "Vko 1 (19.5 - 25.5) on vielä lukittu.";
@@ -64,7 +64,7 @@ function avaaLuukku2 () {
         document.getElementById("l2").innerHTML = "Vko 2"
     } else if (document.getElementById("l2").innerHTML === "Vko 2 (26.5 - 1.6) on vielä lukittu.") {
         document.getElementById("l2").innerHTML = "Vko 2"
-    } else if (tanaan > start) {
+    } else if (tanaan >= start) {
         document.getElementById("l2").innerHTML = "Vko 2 (26.5 - 1.6) on avattu!<br>" + teksti; 
     } else {
         document.getElementById("l2").innerHTML = "Vko 2 (26.5 - 1.6) on vielä lukittu.";
@@ -78,7 +78,7 @@ function avaaLuukku3 () {
         document.getElementById("l3").innerHTML = "Vko 3"
     } else if (document.getElementById("l3").innerHTML === "Vko 3 (2.6 - 8.6) on vielä lukittu.") {
         document.getElementById("l3").innerHTML = "Vko 3"
-    } else if (tanaan > start) {
+    } else if (tanaan >= start) {
         document.getElementById("l3").innerHTML = "Vko 3 (2.6 - 8.6) on avattu!<br>" + teksti;
     } else {
         document.getElementById("l3").innerHTML = "Vko 3 (2.6 - 8.6) on vielä lukittu.";
@@ -92,7 +92,7 @@ function avaaLuukku4 () {
         document.getElementById("l4").innerHTML = "Vko 4"
     } else if (document.getElementById("l4").innerHTML === "Vko 4 (9.6 - 15.6) on vielä lukittu.") {
         document.getElementById("l4").innerHTML = "Vko 4"
-    } else if (tanaan > start) {
+    } else if (tanaan >= start) {
         document.getElementById("l4").innerHTML = "Vko 4 (9.6 - 15.6) on avattu!<br>" + teksti;
     } else {
         document.getElementById("l4").innerHTML = "Vko 4 (9.6 - 15.6) on vielä lukittu.";
@@ -106,7 +106,7 @@ function avaaLuukku5 () {
         document.getElementById("l5").innerHTML = "Vko 5"
     } else if (document.getElementById("l5").innerHTML === "Vko 5 (16.6 - 22.6) on vielä lukittu.") {
         document.getElementById("l5").innerHTML = "Vko 5"
-    } else if (tanaan > start) {
+    } else if (tanaan >= start) {
         document.getElementById("l5").innerHTML = "Vko 5 (16.6 - 22.6) on avattu!<br>" + teksti;
     } else {
         document.getElementById("l5").innerHTML = "Vko 5 (16.6 - 22.6) on vielä lukittu.";
@@ -120,7 +120,7 @@ function avaaLuukku6 () {
         document.getElementById("l6").innerHTML = "Vko 6"
     } else if (document.getElementById("l6").innerHTML === "Vko 6 (23.6 - 29.6) on vielä lukittu.") {
         document.getElementById("l6").innerHTML = "Vko 6"
-    } else if (tanaan > start) {
+    } else if (tanaan >= start) {
         document.getElementById("l6").innerHTML = "Vko 6 (23.6 - 29.6) on avattu!<br>" + teksti;
     } else {
         document.getElementById("l6").innerHTML = "Vko 6 (23.6 - 29.6) on vielä lukittu.";
@@ -134,7 +134,7 @@ function avaaLuukku7 () {
         document.getElementById("l7").innerHTML = "Vko 7"
     } else if (document.getElementById("l7").innerHTML === "Vko 7 (30.6 - 6.7) on vielä lukittu.") {
         document.getElementById("l7").innerHTML = "Vko 7"
-    } else if (tanaan > start) {
+    } else if (tanaan >= start) {
         document.getElementById("l7").innerHTML = "Vko 7 (30.6 - 6.7) on avattu!<br>" + teksti;
     } else {
         document.getElementById("l7").innerHTML = "Vko 7 (30.6 - 6.7) on vielä lukittu.";
@@ -148,7 +148,7 @@ function avaaLuukku8 () {
         document.getElementById("l8").innerHTML = "Vko 8"
     } else if (document.getElementById("l8").innerHTML === "Vko 8 (7.7 - 13.7) on vielä lukittu.") {
         document.getElementById("l8").innerHTML = "Vko 8"
-    } else if (tanaan > start) {
+    } else if (tanaan >= start) {
         document.getElementById("l8").innerHTML = "Vko 8 (7.7 - 13.7) on avattu!<br>" + teksti;
     } else {
         document.getElementById("l8").innerHTML = "Vko 8 (7.7 - 13.7) on vielä lukittu.";
@@ -162,7 +162,7 @@ function avaaLuukku9 () {
         document.getElementById("l9").innerHTML = "Vko 9"
     } else if (document.getElementById("l9").innerHTML === "Vko 9 (14.7 - 20.7) on vielä lukittu.") {
         document.getElementById("l9").innerHTML = "Vko 9"
-    } else if (tanaan > start) {
+    } else if (tanaan >= start) {
         document.getElementById("l9").innerHTML = "Vko 9 (14.7 - 20.7) on avattu!<br>" + teksti;
     } else {
         document.getElementById("l9").innerHTML = "Vko 9 (14.7 - 20.7) on vielä lukittu.";
@@ -176,7 +176,7 @@ function avaaLuukku10 () {
         document.getElementById("l10").innerHTML = "Vko 10"
     } else if (document.getElementById("l10").innerHTML === "Vko 10 (21.7 - 27.7) on vielä lukittu.") {
         document.getElementById("l10").innerHTML = "Vko 10"
-    } else if (tanaan > start) {
+    } else if (tanaan >= start) {
         document.getElementById("l10").innerHTML = "Vko 10 (21.7 - 27.7) on avattu!<br>" + teksti;
     } else {
         document.getElementById("l10").innerHTML = "Vko 10 (21.7 - 27.7) on vielä lukittu.";
@@ -190,7 +190,7 @@ function avaaLuukku11 () {
         document.getElementById("l11").innerHTML = "Vko 11"
     } else if (document.getElementById("l11").innerHTML === "Vko 11 (28.7 - 3.8) on vielä lukittu.") {
         document.getElementById("l11").innerHTML = "Vko 11"
-    } else if (tanaan > start) {
+    } else if (tanaan >= start) {
         document.getElementById("l11").innerHTML = "Vko 11 (28.7 - 3.8) on avattu!<br>" + teksti;
     } else {
         document.getElementById("l11").innerHTML = "Vko 11 (28.7 - 3.8) on vielä lukittu.";
@@ -204,7 +204,7 @@ function avaaLuukku12 () {
         document.getElementById("l12").innerHTML = "Vko 12"
     } else if (document.getElementById("l12").innerHTML === "Vko 12 (4.8 - 10.8) on vielä lukittu.") {
         document.getElementById("l12").innerHTML = "Vko 12"
-    } else if (tanaan > start) {
+    } else if (tanaan >= start) {
         document.getElementById("l12").innerHTML = "Vko 12 (4.8 - 10.8) on avattu!<br>" + teksti;
     } else {
         document.getElementById("l12").innerHTML = "Vko 12 (4.8 - 10.8) on vielä lukittu.";
@@ -218,7 +218,7 @@ function avaaLuukku13 () {
         document.getElementById("l13").innerHTML = "Vko 13"
     } else if (document.getElementById("l13").innerHTML === "Vko 13 (11.8 - 17.8) on vielä lukittu.") {
         document.getElementById("l13").innerHTML = "Vko 13"
-    } else if (tanaan > start) {
+    } else if (tanaan >= start) {
         document.getElementById("l13").innerHTML = "Vko 13 (11.8 - 17.8) on avattu!<br>" + teksti;
     } else {
         document.getElementById("l13").innerHTML = "Vko 13 (11.8 - 17.8) on vielä lukittu.";
